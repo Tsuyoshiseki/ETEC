@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             Background="CadetBlue">
+
+    <VerticalStackLayout VerticalOptions="Center"
+                      Padding="10"
+                      Spacing="10">
+        
+        <Label Text="Sobre"
+                FontSize="50"
+                TextColor="Black">
+            
+        <Label.Shadow> 
+            <Shadow Brush="Black"
+                    Offset="3,3"
+                     Radius="5"
+                     Opacity="0.2" />
+            </Label.Shadow>
+        </Label>
+        
+        <Frame Padding="10"
+               BackgroundColor="WhiteSmoke"
+               CornerRadius="15">
+
+            <VerticalStackLayout Spacing="15"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center">
+
+                <Label 
+                       Text="Aplicativo de Hospedagem"
+                       FontSize="22"
+                       TextColor="Black"
+                       FontAttributes="Bold"/>
+
+                <Label Text="Desenvolvido por: Luã Seki"
+                       FontSize="16"
+                       TextColor="Black"/>
+
+                <Label Text="Ano de desenvolvimento: 2025"
+                       FontSize="16"
+                       TextColor="Black"/>
+
+                <Label Text="Este app foi criado com .NET MAUI"
+                       FontSize="10"
+                       TextColor="DimGray"
+                       HorizontalTextAlignment="Center"/>
+
+                
+
+            </VerticalStackLayout>
+        </Frame>
+        
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"
+                BackgroundColor="WhiteSmoke"
+                BorderColor="black"
+                BorderWidth="0.5"
+                />
+        
+    </VerticalStackLayout>
+</ContentPage>
