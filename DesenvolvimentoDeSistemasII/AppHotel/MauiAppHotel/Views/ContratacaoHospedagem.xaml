@@ -109,6 +109,15 @@
             </VerticalStackLayout>
             
         </Frame>
+
+
+        <Button Text="Contato"
+        Clicked="Contato_Clicked"
+        BackgroundColor="WhiteSmoke" 
+        BorderColor="Black"
+        BorderWidth="2"/>
+        
+        
         <Button Text="Sobre o App"
         BackgroundColor="CadetBlue"
         TextColor="Black"

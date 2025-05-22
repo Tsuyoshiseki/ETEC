@@ -27,6 +27,11 @@ public partial class ContratacaoHospedagem : ContentPage
         await Navigation.PushAsync(new Sobre());
     }
 
+    private async void Contato_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Contato());
+    }
+
     private async void Button_Clicked(object sender, EventArgs e)
     {
         try

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Contato"
+             Title="Contato"
+             BackgroundColor="CadetBlue">
+
+    <VerticalStackLayout VerticalOptions="Center"
+                  Padding="10"
+                  Spacing="10">
+        
+
+        <Label Text="Entre em Contato"
+               FontSize="50"
+               TextColor="Black"
+               HorizontalOptions="Center">
+            
+            <Label.Shadow>
+                <Shadow Brush="Black"
+                        Offset="3,3"
+                        Radius="5"
+                        Opacity="0.2" />
+                </Label.Shadow>
+            </Label>
+
+        <Frame Padding="10"
+               BackgroundColor="WhiteSmoke"
+               CornerRadius="15">
+            
+            <VerticalStackLayout Spacing="15"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center">
+                
+                <Label Text="Telefone: (11) 1234-5678"
+                       FontSize="18"
+                       TextColor="Black"/>
+
+                <Label Text="E-mail: contato@hotel.com"
+                       FontSize="18"
+                       TextColor="Black"/>
+
+                <Label Text="Endereço: Rua Paraíso, 123 - São Paulo, SP"
+                       FontSize="18"
+                       TextColor="Black"/>
+
+                <Button Text="Ver no Mapa"
+                        Clicked="OnMapaClicked"
+                        BackgroundColor="CadetBlue"
+                        TextColor="Black"
+                        BorderColor="black"
+                        BorderWidth="0.5"/>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"
+                BackgroundColor="WhiteSmoke"
+                BorderColor="black"
+                BorderWidth="0.5"/>
+        
+        
+    </VerticalStackLayout>
+</ContentPage>
