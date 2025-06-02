@@ -1,0 +1,1 @@
+C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasII\CadastroEvento\CadastroEvento.csproj;x64

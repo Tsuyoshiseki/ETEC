@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadastroEvento.Views.MainPage"
+             Title="Cadastro Evento"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
+
+    <VerticalStackLayout VerticalOptions="Center"
+                         Padding="10"
+                         Spacing="10">
+
+        <Label Text="Cadastrar Evento"
+               FontSize="40"
+               TextColor="Yellow"
+               HorizontalOptions="Center"
+               FontAttributes="Bold">
+            <Label.Shadow>
+                <Shadow Brush="White"
+                        Offset="3,3"
+                        Radius="5"
+                        Opacity="0.1" />
+            </Label.Shadow>
+        </Label>
+
+        <Frame Padding="10"
+               BackgroundColor="White"
+               CornerRadius="15">
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label Text="Nome do Evento"
+                       TextTransform="Uppercase"
+                       FontSize="Subtitle"
+                       TextColor="Black"/>
+                
+                <Entry Placeholder="Nome do evento" 
+                       Text="{Binding Nome}" 
+                       TextColor="Black"
+                       BackgroundColor="White" />
+
+                
+                <Label Text="Tempo do evento"
+                       TextTransform="Uppercase"
+                       FontSize="Subtitle"
+                       TextColor="Black"/>
+
+                <HorizontalStackLayout>
+                    <Label Text="Check-in:" 
+                           TextColor="Black"
+                           VerticalOptions="Center" 
+                           Margin="10"/>
+                    <DatePicker Date="{Binding DataInicio}"
+                                Format="dd/MM/yyyy"
+                                BackgroundColor="Black"
+                                TextColor="Yellow"
+                                FontAttributes="Bold"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Check-out:"
+                           TextColor="Black"
+                           VerticalOptions="Center"
+                           Margin="5"/>
+                    <DatePicker Date="{Binding DataTermino}"
+                                Format="dd/MM/yyyy"
+                                BackgroundColor="Black"
+                                TextColor="Yellow"
+                                FontAttributes="Bold"/>
+                </HorizontalStackLayout>
+
+                
+                <Label Text="Número de Participantes"
+                       FontSize="Subtitle"
+                       TextColor="Black"/>
+                <Entry Placeholder="Ex: 100" 
+                       Keyboard="Numeric" 
+                       Text="{Binding NumeroParticipantes}"
+                       TextColor="Black"
+                       BackgroundColor="White"/>
+
+                
+                <Label Text="Local do Evento"
+                       FontSize="Subtitle"
+                       TextColor="Black"/>
+                <Entry Placeholder="Ex: São Paulo" 
+                       Text="{Binding Local}"
+                       TextColor="Black"
+                       BackgroundColor="White" />
+
+                
+                <Label Text="Custo por Participante (R$)"
+                       FontSize="Subtitle"
+                       TextColor="Black"/>
+                <Entry Placeholder="Ex: 99.90" 
+                       Keyboard="Numeric" 
+                       Text="{Binding CustoPorParticipante}"
+                       TextColor="Black"
+                       BackgroundColor="White"/>
+
+                <Button Text="Cadastrar" 
+                        Clicked="OnCadastrarClicked"
+                        TextColor="Yellow"
+                        BackgroundColor="Black"
+                        FontAttributes="Bold"/>
+
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
