@@ -1,1 +1,0 @@
-C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\AppMinhasCompras.csproj;x64
