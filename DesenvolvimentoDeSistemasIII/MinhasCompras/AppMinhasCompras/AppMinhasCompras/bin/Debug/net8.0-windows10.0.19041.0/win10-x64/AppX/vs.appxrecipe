@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-10T23:25:22.226</Modified>
+      <Modified>2025-08-16T19:39:37.266</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-08-10T23:23:05.042</Modified>
+      <Modified>2025-08-16T19:37:22.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMinhasCompras.runtimeconfig.json">
       <PackagePath>AppMinhasCompras.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMinhasCompras.dll">
       <PackagePath>AppMinhasCompras.dll</PackagePath>
-      <Modified>2025-08-10T23:25:21.905</Modified>
+      <Modified>2025-08-16T19:39:36.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppMinhasCompras.exe</PackagePath>
-      <Modified>2025-08-10T23:25:21.912</Modified>
+      <Modified>2025-08-16T19:39:36.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMinhasCompras.deps.json">
       <PackagePath>AppMinhasCompras.deps.json</PackagePath>
-      <Modified>2025-08-10T23:23:04.545</Modified>
+      <Modified>2025-08-16T19:37:22.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
