@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppMinhasCompras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+58eac149a97a5852b7acc22f32ad8642708f2679")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3dbf7c01944c4eb62fbfbf27f0c690f74e6e8037")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppMinhasCompras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppMinhasCompras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

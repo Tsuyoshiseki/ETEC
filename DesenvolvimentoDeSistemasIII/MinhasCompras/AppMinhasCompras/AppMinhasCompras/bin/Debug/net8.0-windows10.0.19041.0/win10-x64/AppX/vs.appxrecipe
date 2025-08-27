@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-23T19:47:35.441</Modified>
+      <Modified>2025-08-27T12:15:22.609</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMinhasCompras.dll">
       <PackagePath>AppMinhasCompras.dll</PackagePath>
-      <Modified>2025-08-23T19:47:34.321</Modified>
+      <Modified>2025-08-27T12:15:21.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppMinhasCompras.exe</PackagePath>
-      <Modified>2025-08-23T19:47:34.384</Modified>
+      <Modified>2025-08-27T12:15:21.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\MinhasCompras\AppMinhasCompras\AppMinhasCompras\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
