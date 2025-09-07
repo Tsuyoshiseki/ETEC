@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\helpers\\sqlitedatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\helpers\\sqlitedatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\editarproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\views\\editarproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\editarproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\views\\editarproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\listaproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,22 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\listaproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\views\\listaproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\novoproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\views\\novoproduto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\minhascompras\\appminhascompras\\appminhascompras\\views\\novoproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD7F7ED4-6810-4EB2-961D-8A278AEA4057}|AppMinhasCompras\\AppMinhasCompras.csproj|solutionrelative:appminhascompras\\views\\novoproduto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,56 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Models\\Produto.cs",
-              "RelativeToolTip": "AppMinhasCompras\\Models\\Produto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:44:27.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NovoProduto.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\NovoProduto.xaml.cs",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\NovoProduto.xaml.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\NovoProduto.xaml.cs",
-              "RelativeToolTip": "AppMinhasCompras\\Views\\NovoProduto.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T19:34:40.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NovoProduto.xaml",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\NovoProduto.xaml",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\NovoProduto.xaml",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\NovoProduto.xaml",
-              "RelativeToolTip": "AppMinhasCompras\\Views\\NovoProduto.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ListaProduto.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml",
+              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\ListaProduto.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml",
+              "RelativeToolTip": "AppMinhasCompras\\Views\\ListaProduto.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-23T19:29:23.314Z",
+              "WhenOpened": "2025-08-23T19:21:12.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ListaProduto.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml.cs",
               "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\ListaProduto.xaml.cs",
               "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml.cs",
               "RelativeToolTip": "AppMinhasCompras\\Views\\ListaProduto.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvzMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwIkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T19:23:44.081Z",
               "EditorCaption": ""
@@ -95,40 +61,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ListaProduto.xaml",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\ListaProduto.xaml",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\ListaProduto.xaml",
-              "RelativeToolTip": "AppMinhasCompras\\Views\\ListaProduto.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Title": "EditarProduto.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\EditarProduto.xaml",
+              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\EditarProduto.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\EditarProduto.xaml",
+              "RelativeToolTip": "AppMinhasCompras\\Views\\EditarProduto.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-23T19:21:12.886Z",
+              "WhenOpened": "2025-09-07T14:32:41.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\App.xaml.cs",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\App.xaml.cs",
-              "RelativeToolTip": "AppMinhasCompras\\App.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditarProduto.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\EditarProduto.xaml.cs",
+              "RelativeDocumentMoniker": "AppMinhasCompras\\Views\\EditarProduto.xaml.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Views\\EditarProduto.xaml.cs",
+              "RelativeToolTip": "AppMinhasCompras\\Views\\EditarProduto.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T23:23:39.202Z",
+              "WhenOpened": "2025-09-07T14:36:46.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLiteDatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Helpers\\SQLiteDatabaseHelper.cs",
-              "RelativeDocumentMoniker": "AppMinhasCompras\\Helpers\\SQLiteDatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Helpers\\SQLiteDatabaseHelper.cs*",
-              "RelativeToolTip": "AppMinhasCompras\\Helpers\\SQLiteDatabaseHelper.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwCsAAAAnAAAAAAAAAA==",
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "AppMinhasCompras\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\MinhasCompras\\AppMinhasCompras\\AppMinhasCompras\\Models\\Produto.cs*",
+              "RelativeToolTip": "AppMinhasCompras\\Models\\Produto.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T23:11:08.044Z",
+              "WhenOpened": "2025-09-07T14:48:46.504Z",
               "EditorCaption": ""
             }
           ]
