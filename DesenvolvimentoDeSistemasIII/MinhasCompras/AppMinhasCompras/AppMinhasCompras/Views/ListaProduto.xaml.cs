@@ -41,9 +41,15 @@ public partial class ListaProduto : ContentPage
     {
         try
         {
-            double soma = lista.Sum(i => i.Total);
+            string categoriaSelecionada = pickerCategoria.SelectedItem?.ToString() ?? "Todos";
 
-            string msg = $"O total é {soma:C}";
+            var listaFiltrada = categoriaSelecionada == "Todos"
+            ? lista
+            : lista.Where(p => p.Categoria == categoriaSelecionada);
+
+            double soma = listaFiltrada.Sum(p => p.Total);
+
+            string msg = $"O total da categoria '{categoriaSelecionada}' é {soma:C}";
 
             DisplayAlert("Total dos Produtos", msg, "OK");
         
@@ -76,6 +82,8 @@ public partial class ListaProduto : ContentPage
 	{
 		try
 		{
+            lst_produtos.IsRefreshing = true;
+
             string q = e.NewTextValue;
 
             lista.Clear();
@@ -88,6 +96,11 @@ public partial class ListaProduto : ContentPage
         {
 
             await DisplayAlert("Ops", ex.Message, "OK");
+        }
+        finally
+        {
+            lst_produtos.IsRefreshing = false;
+
         }
 
     }
@@ -135,4 +148,58 @@ public partial class ListaProduto : ContentPage
             DisplayAlert("Ops", ex.Message, "OK");
         }
     }
+
+    private async void Refreshing(object sender, EventArgs e)
+    {
+        try
+        {
+            lista.Clear();
+
+            List<Produto> tmp = await App.Db.GetAll();
+
+            tmp.ForEach(i => lista.Add(i));
+        }
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Ops", ex.Message, "OK");
+
+        }   
+        finally
+        {
+            lst_produtos.IsRefreshing = false;
+        }
+    }
+
+    private async void ToolbarItem_Relatorio_Clicked(object sender, EventArgs e)
+    {
+        var gastosPorCategoria = lista
+            .GroupBy(p => p.Categoria)
+            .Select(g => new { Categoria = g.Key, Total = g.Sum(p => p.Total) })
+            .ToList();
+
+        string relatorio = "";
+        foreach (var item in gastosPorCategoria)
+        {
+            relatorio += $"{item.Categoria}: {item.Total:C}\n";
+        }
+
+        await DisplayAlert("Relatório de Compras", relatorio, "OK");
+    }
+
+    private void pickerCategoria_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        string categoriaSelecionada = pickerCategoria.SelectedItem?.ToString()??"Todos";
+
+        if (categoriaSelecionada == "Todos")
+        {
+            lst_produtos.ItemsSource = lista;
+        }
+        else
+        {
+            var filtrados = lista.Where(p => p.Categoria == categoriaSelecionada).ToList();
+            lst_produtos.ItemsSource = filtrados;
+        }
+    }
+
 }

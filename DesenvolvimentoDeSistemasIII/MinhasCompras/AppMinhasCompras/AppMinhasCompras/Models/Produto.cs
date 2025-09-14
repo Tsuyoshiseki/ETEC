@@ -7,6 +7,7 @@ namespace AppMinhasCompras.Models
         String _descricao;
         double _quantidade;
         double _valor;
+        String _categoria;
 
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
@@ -49,6 +50,22 @@ namespace AppMinhasCompras.Models
 
                 _valor = value;
             }
+        }
+
+        public string Categoria
+        {
+
+            get => _categoria;
+            set
+            {
+                if (value == null)
+                {
+                    throw new Exception("Por favor, preencha a categoria");
+                }
+
+                _categoria = value;
+            }
+
         }
         public double Total { get => Quantidade * Preco; }
     }
