@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\apptempoagora\\apptempoagora\\models\\tempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|solutionrelative:apptempoagora\\models\\tempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\apptempoagora\\apptempoagora\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|solutionrelative:apptempoagora\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\apptempoagora\\apptempoagora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|solutionrelative:apptempoagora\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\desenvolvimentodesistemasiii\\apptempoagora\\apptempoagora\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3E7F54-6F77-47EB-AC85-CF796E719AC0}|AppTempoAgora\\AppTempoAgora.csproj|solutionrelative:apptempoagora\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppTempoAgora\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\MainPage.xaml.cs",
+              "RelativeToolTip": "AppTempoAgora\\MainPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T22:20:16.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AppTempoAgora\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\MainPage.xaml",
+              "RelativeToolTip": "AppTempoAgora\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-20T22:18:54.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "AppTempoAgora\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\Services\\DataService.cs",
+              "RelativeToolTip": "AppTempoAgora\\Services\\DataService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T21:55:07.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tempo.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\Models\\Tempo.cs",
+              "RelativeDocumentMoniker": "AppTempoAgora\\Models\\Tempo.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\DesenvolvimentoDeSistemasIII\\AppTempoAgora\\AppTempoAgora\\Models\\Tempo.cs",
+              "RelativeToolTip": "AppTempoAgora\\Models\\Tempo.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T21:54:45.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

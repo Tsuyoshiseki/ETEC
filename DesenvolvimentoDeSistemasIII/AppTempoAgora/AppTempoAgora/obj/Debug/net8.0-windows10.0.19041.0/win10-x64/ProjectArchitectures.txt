@@ -1,0 +1,1 @@
+C:\Users\tsuyo\Documents\GitHub\ETEC\DesenvolvimentoDeSistemasIII\AppTempoAgora\AppTempoAgora\AppTempoAgora.csproj;x64
