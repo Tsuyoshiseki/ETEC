@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppTempoAgora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f04c1b427eb951e01bfdc6d42c0b14204448d3c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8dd534689440f7f0e59b5a99583c27030e186575")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppTempoAgora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppTempoAgora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

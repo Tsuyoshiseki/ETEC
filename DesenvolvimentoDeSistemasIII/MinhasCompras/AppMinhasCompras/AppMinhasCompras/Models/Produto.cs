@@ -63,7 +63,7 @@ namespace AppMinhasCompras.Models
                     throw new Exception("Por favor, preencha a categoria");
                 }
 
-                _categoria = value;
+                _categoria = value; 
             }
 
         }

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWiglaTCC.MainPage"
+             BackgroundColor="White"
+             Title="Wigla">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15" Spacing="20">
+
+                <!-- Campo de Busca -->
+                <SearchBar Placeholder="Buscar abreviação ou sigla..."
+                           x:Name="searchBar"
+                           FontSize="16"
+                           SearchButtonPressed="OnSearchButtonPressed"
+                           BackgroundColor="#f5f5f5"
+                           TextColor="Black"/>
+
+                <!-- Destaques (igual Wikipedia com artigos em destaque) -->
+                <StackLayout>
+                    <Label Text="Em destaque" 
+                           FontAttributes="Bold" 
+                           FontSize="18"
+                           TextColor="Black"/>
+                    <CollectionView x:Name="destaquesCollection" HeightRequest="200">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="10" Margin="5"
+                                       WidthRequest="150"
+                                       BorderColor="#ddd"
+                                       CornerRadius="10">
+                                    <StackLayout>
+                                        <Label Text="{Binding Sigla}" 
+                                               FontAttributes="Bold" 
+                                               FontSize="16"
+                                               TextColor="Black"/>
+                                        <Label Text="{Binding Descricao}" 
+                                               FontSize="12"
+                                               LineBreakMode="TailTruncation"
+                                               TextColor="Gray"/>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+
+                <!-- Lista de abreviações recentes -->
+                <StackLayout>
+                    <Label Text="Últimas adicionadas" 
+                           FontAttributes="Bold" 
+                           FontSize="18"
+                           TextColor="Black"/>
+                    <CollectionView x:Name="abreviacoesCollection">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="10" Margin="5"
+                                       BorderColor="#eee"
+                                       CornerRadius="8">
+                                    <StackLayout>
+                                        <Label Text="{Binding Sigla}" 
+                                               FontAttributes="Bold"
+                                               FontSize="16"
+                                               TextColor="#2a2a2a"/>
+                                        <Label Text="{Binding Descricao}" 
+                                               FontSize="14"
+                                               TextColor="Gray"/>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

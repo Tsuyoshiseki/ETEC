@@ -2,6 +2,9 @@
 using System.Threading.Tasks;
 using AppTempoAgora.Models;
 using AppTempoAgora.Services;
+using System;
+using System.Diagnostics;
+
 
 namespace AppTempoAgora
 {
@@ -12,7 +15,7 @@ namespace AppTempoAgora
             InitializeComponent();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked_Previsao(object sender, EventArgs e)
         {
             try
             {
@@ -29,31 +32,100 @@ namespace AppTempoAgora
                                          $"Nascer do Sol: {t.sunrise} \n" +
                                          $"Por do Sol: {t.sunset} \n" +
                                          $"Temp Máx: {t.temp_max} \n" +
-                                         $"Temp Min: {t.temp_min} \n" +
-                                         $"Descrição do clima: {t.description} \n" +
-                                         $"Velocidade do vento: {t.speed} \n" +
-                                         $"Visibilidade: {t.visibility} \n"; ;
-
+                                         $"Temp Min: {t.temp_min} \n";
 
                         lbl_res.Text = dados_previsao;
 
-                    } else
+                        string mapa = $"https://embed.windy.com/embed.html?" +
+                                      $"type=map&location=coordinates&metricRain=mm&metricTemp=°C" +
+                                      $"&metricWind=km/h&zoom=5&overlay=wind&product=ecmwf&level=surface" +
+                                      $"&lat={t.lat.ToString().Replace(",", ".")}&lon={t.lon.ToString().Replace(",", ".")}";
+
+                        wv_mapa.Source = mapa;
+
+                        Debug.WriteLine(mapa);
+
+                    }
+                    else
                     {
+
                         lbl_res.Text = "Sem dados de Previsão";
                     }
 
-                } else 
+                }
+                else
                 {
-                    await DisplayAlert("Aviso", "Digite o nome de uma cidade.", "OK");
+                    lbl_res.Text = "Preencha a cidade.";
                 }
 
-            } 
-            catch (Exception ex) 
+            }
+            catch (Exception ex)
             {
-
                 await DisplayAlert("Ops", ex.Message, "OK");
             }
         }
-    }
 
+        private async void Button_Clicked_Localizacao(object sender, EventArgs e)
+        {
+            try
+            {
+                GeolocationRequest request = new GeolocationRequest(
+                    GeolocationAccuracy.Medium,
+                    TimeSpan.FromSeconds(10)
+                );
+
+                Location? local = await Geolocation.Default.GetLocationAsync(request);
+
+                if (local != null)
+                {
+                    string local_disp = $"Latitude: {local.Latitude} \n" +
+                                        $"Longitude: {local.Longitude}";
+
+                    lbl_coords.Text = local_disp;
+
+                    GetCidade(local.Latitude, local.Longitude);
+
+                }
+                else
+                {
+                    lbl_coords.Text = "Nenhuma localização";
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                await DisplayAlert("Erro: Dispositivo não Suporta", fnsEx.Message, "OK");
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                await DisplayAlert("Erro: Localização Desabilitada", fneEx.Message, "OK");
+            }
+            catch (PermissionException pEx)
+            {
+                await DisplayAlert("Erro: Permissão da Localização", pEx.Message, "OK");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro", ex.Message, "OK");
+            }
+        }
+
+        private async void GetCidade(double lat, double lon)
+        {
+            try
+            {
+                IEnumerable<Placemark> places = await Geocoding.Default.GetPlacemarksAsync(lat, lon);
+
+                Placemark? place = places.FirstOrDefault();
+
+                if (place != null)
+                {
+                    txt_cidade.Text = place.Locality;
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro: Obtenção do nome da Cidade", ex.Message, "OK");
+            }
+        }
+    }
 }
