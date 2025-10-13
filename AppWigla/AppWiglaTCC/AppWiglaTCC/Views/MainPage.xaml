@@ -1,82 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppWiglaTCC.MainPage"
+             x:Class="AppWiglaTCC.Views.MainPage"
              BackgroundColor="White"
              Title="Wigla">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Adicionar Abreviação" Clicked="Adicionar_Clicked" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="15" Spacing="20">
+            <VerticalStackLayout Padding="15" Spacing="10">
 
-                <!-- Campo de Busca -->
-                <SearchBar Placeholder="Buscar abreviação ou sigla..."
-                           x:Name="searchBar"
-                           FontSize="16"
-                           SearchButtonPressed="OnSearchButtonPressed"
-                           BackgroundColor="#f5f5f5"
-                           TextColor="Black"/>
+                <Grid Padding="10" ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
 
-                <!-- Destaques (igual Wikipedia com artigos em destaque) -->
-                <StackLayout>
-                    <Label Text="Em destaque" 
-                           FontAttributes="Bold" 
-                           FontSize="18"
-                           TextColor="Black"/>
-                    <CollectionView x:Name="destaquesCollection" HeightRequest="200">
-                        <CollectionView.ItemsLayout>
-                            <LinearItemsLayout Orientation="Horizontal"/>
-                        </CollectionView.ItemsLayout>
+                    <Entry x:Name="txtBusca"
+                       Placeholder="Digite uma sigla..."
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       HeightRequest="45"
+                       FontSize="16"
+                       VerticalOptions="Center"
+                       Grid.Column="0" />
+              
+                    <Button Text="Procurar"
+                        Clicked="Procurar_Clicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        HeightRequest="45"
+                        WidthRequest="100"
+                        VerticalOptions="Center"
+                        Grid.Column="1" />
+                </Grid>
+
+                <Label Text="Últimas adicionadas" 
+                       FontAttributes="Bold" 
+                       FontSize="18"
+                       TextColor="Black"/>
+
+                <RefreshView x:Name="refreshView" Command="{Binding RefreshCommand}">
+                    <CollectionView x:Name="SiglasCollection"
+                                    ItemsSource="{Binding Siglas}"
+                                    SelectionMode="Single"
+                                    Margin="10">
+
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <Frame Padding="10" Margin="5"
-                                       WidthRequest="150"
-                                       BorderColor="#ddd"
-                                       CornerRadius="10">
-                                    <StackLayout>
-                                        <Label Text="{Binding Sigla}" 
-                                               FontAttributes="Bold" 
-                                               FontSize="16"
-                                               TextColor="Black"/>
-                                        <Label Text="{Binding Descricao}" 
-                                               FontSize="12"
-                                               LineBreakMode="TailTruncation"
-                                               TextColor="Gray"/>
-                                    </StackLayout>
-                                </Frame>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </StackLayout>
-
-                <!-- Lista de abreviações recentes -->
-                <StackLayout>
-                    <Label Text="Últimas adicionadas" 
-                           FontAttributes="Bold" 
-                           FontSize="18"
-                           TextColor="Black"/>
-                    <CollectionView x:Name="abreviacoesCollection">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Frame Padding="10" Margin="5"
-                                       BorderColor="#eee"
-                                       CornerRadius="8">
-                                    <StackLayout>
-                                        <Label Text="{Binding Sigla}" 
+                                <Frame BorderColor="LightGray"
+                                       CornerRadius="10"
+                                       Padding="10"
+                                       Margin="5"
+                                       HasShadow="True">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Abreviacao}"
+                                               FontSize="18"
                                                FontAttributes="Bold"
-                                               FontSize="16"
-                                               TextColor="#2a2a2a"/>
-                                        <Label Text="{Binding Descricao}" 
+                                               TextColor="#0078D7" />
+                                        <Label Text="{Binding Significado}"
                                                FontSize="14"
-                                               TextColor="Gray"/>
-                                    </StackLayout>
+                                               TextColor="Black" />
+                                        <Label Text="{Binding Categoria}"
+                                               FontSize="12"
+                                               TextColor="Gray" />
+                                    </VerticalStackLayout>
                                 </Frame>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </StackLayout>
 
-            </StackLayout>
+                    </CollectionView>
+                </RefreshView>
+
+            </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

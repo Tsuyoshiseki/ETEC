@@ -1,4 +1,7 @@
-﻿namespace AppWiglaTCC
+﻿using AppWiglaTCC.Views;
+
+namespace AppWiglaTCC
+
 {
     public partial class App : Application
     {
@@ -8,8 +11,8 @@
 
             UserAppTheme = AppTheme.Light;
 
-
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
+            
         }
     }
 }

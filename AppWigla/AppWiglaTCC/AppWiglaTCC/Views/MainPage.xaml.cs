@@ -1,57 +1,93 @@
-﻿using System.Collections.ObjectModel;
+﻿using AppWiglaTCC.Models;
+using AppWiglaTCC.Data;
 
-namespace AppWiglaTCC
+namespace AppWiglaTCC.Views
 {
     public partial class MainPage : ContentPage
     {
-        // Lista observável para ligar na CollectionView
-        public ObservableCollection<Abreviacao> Abreviacoes { get; set; }
-        public ObservableCollection<Abreviacao> Destaques { get; set; }
+        private SiglaDatabase db = new SiglaDatabase();
 
         public MainPage()
         {
             InitializeComponent();
-
-            // Dados mockados (teste)
-            Abreviacoes = new ObservableCollection<Abreviacao>
-        {
-            new Abreviacao { Sigla = "API", Descricao = "Application Programming Interface" },
-            new Abreviacao { Sigla = "HTML", Descricao = "HyperText Markup Language" },
-            new Abreviacao { Sigla = "CSS", Descricao = "Cascading Style Sheets" },
-            new Abreviacao { Sigla = "SQL", Descricao = "Structured Query Language" },
-            new Abreviacao { Sigla = "OOP", Descricao = "Object-Oriented Programming" }
-        };
-
-            Destaques = new ObservableCollection<Abreviacao>
-        {
-            new Abreviacao { Sigla = "AI", Descricao = "Artificial Intelligence" },
-            new Abreviacao { Sigla = "IoT", Descricao = "Internet of Things" },
-            new Abreviacao { Sigla = "DevOps", Descricao = "Development and Operations" }
-        };
-
-            // Liga dados nas listas
-            abreviacoesCollection.ItemsSource = Abreviacoes;
-            destaquesCollection.ItemsSource = Destaques;
+            CarregarSiglas();
         }
 
-        // Evento da barra de busca
-        private void OnSearchButtonPressed(object sender, EventArgs e)
+
+        private async void SiglasCollection_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var query = searchBar.Text?.ToLower() ?? "";
+            if (e.CurrentSelection.FirstOrDefault() is Sigla siglaSelecionada)
+            {
+                await Navigation.PushAsync(new EditarSigla(siglaSelecionada));
 
-            var filtradas = Abreviacoes
-                .Where(a => a.Sigla.ToLower().Contains(query) ||
-                            a.Descricao.ToLower().Contains(query))
-                .ToList();
-
-            abreviacoesCollection.ItemsSource = filtradas;
+                ((CollectionView)sender).SelectedItem = null;
+            }
         }
-    }
 
-    // Classe modelo de abreviação
-    public class Abreviacao
-    {
-        public string Sigla { get; set; }
-        public string Descricao { get; set; }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            CarregarSiglas();
+        }
+
+        private void CarregarSiglas()
+        {
+            try
+            {
+                var Sigla = db.BuscarSiglas("")
+                               .OrderBy(s => s.Abreviacao)
+                               .ToList();
+                SiglasCollection.ItemsSource = Sigla;
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"Erro ao carregar siglas: {ex.Message}", "OK");
+            }
+        }
+
+        private void Procurar_Clicked(object sender, EventArgs e)
+        {
+            string termo = txtBusca.Text?.Trim() ?? "";
+
+            try
+            {
+                List<Sigla> resultado;
+
+                if (string.IsNullOrEmpty(termo))
+                {
+                    resultado = db.BuscarSiglas("").OrderBy(s => s.Abreviacao).ToList();
+                }
+                else
+                {
+                    resultado = db.BuscarSiglas("")
+                                  .Where(s => s.Abreviacao.ToLower().Contains(termo.ToLower()))
+                                  .OrderBy(s => s.Abreviacao)
+                                  .ToList();
+                }
+
+                SiglasCollection.ItemsSource = resultado;
+
+                if (resultado.Count == 0)
+                    DisplayAlert("Aviso", "Nenhuma sigla encontrada.", "OK");
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Erro", $"Erro ao buscar siglas: {ex.Message}", "OK");
+            }
+        }
+
+
+        private void Adicionar_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Navigation.PushAsync(new Views.AdicionarSigla());
+
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
+        }
     }
 }
