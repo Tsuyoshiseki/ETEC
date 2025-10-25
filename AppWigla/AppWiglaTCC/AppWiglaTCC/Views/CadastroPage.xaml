@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWiglaTCC.Views.CadastroPage"
+             Title="CadastroPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="15">
+            <Label Text="Cadastro" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Entry Placeholder="Nome completo" x:Name="nomeEntry"/>
+            <Entry Placeholder="E-mail" x:Name="emailEntry" Keyboard="Email"/>
+            <Entry Placeholder="Senha" x:Name="senhaEntry" IsPassword="True"/>
+
+            <Button Text="Cadastrar" 
+                    BackgroundColor="#0078D7"
+                    Clicked="OnCadastrarClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

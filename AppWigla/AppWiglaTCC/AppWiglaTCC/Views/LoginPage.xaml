@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWiglaTCC.Views.LoginPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <Grid Padding="30" RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Logo -->
+                <RowDefinition Height="Auto"/>
+                <!-- Título -->
+                <RowDefinition Height="*"/>
+                <!-- Formulário -->
+            </Grid.RowDefinitions>
+
+            <!-- Logo no canto superior esquerdo -->
+            <VerticalStackLayout Padding="1" Spacing="100">
+            <Image Source="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\Resources\AppIcon\Wigla.png"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Aspect="AspectFit"
+                   />
+            </VerticalStackLayout>
+            <!-- Título centralizado -->
+            <Label Grid.Row="1"
+                   Text="Login"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,30"/>
+
+            <!-- Formulário -->
+            <VerticalStackLayout Grid.Row="2" Spacing="15" VerticalOptions="Center">
+
+                <Entry x:Name="EmailEntry"
+                       Placeholder="E-mail"
+                       Keyboard="Email"
+                       BackgroundColor="#f8f8f8"
+                       TextColor="Black"
+                       HeightRequest="45"/>
+
+                <Entry x:Name="SenhaEntry"
+                       Placeholder="Senha"
+                       IsPassword="True"
+                       BackgroundColor="#f8f8f8"
+                       TextColor="Black"
+                       HeightRequest="45"
+                       Completed="OnSenhaCompleted"/>
+
+                <Button Text="Entrar"
+                        Clicked="Entrar_Clicked"
+                        BackgroundColor="#0078D7"
+                        TextColor="White"
+                        WidthRequest="120"
+                        HeightRequest="40"
+                        FontAttributes="Bold"
+                        CornerRadius="8"
+                        Margin="0,20,0,0"/>
+
+                <Button Text="Cadastrar-se"
+                        Clicked="Cadastrar_Clicked"
+                        WidthRequest="120"
+                        HeightRequest="40"
+                        FontSize="12"
+                        CornerRadius="8"
+                        Margin="10"
+                        BackgroundColor="Transparent"
+                        TextColor="DarkGray"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

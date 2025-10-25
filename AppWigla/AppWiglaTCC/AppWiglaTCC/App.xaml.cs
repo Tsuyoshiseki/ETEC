@@ -10,8 +10,11 @@ namespace AppWiglaTCC
             InitializeComponent();
 
             UserAppTheme = AppTheme.Light;
+            Application.Current.Resources["NavigationPageBarBackgroundColor"] = Colors.Blue;
+            Application.Current.Resources["NavigationPageBarTextColor"] = Colors.White;
 
-            MainPage = new NavigationPage(new MainPage());
+
+            MainPage = new NavigationPage(new Views.LoginPage());
             
         }
     }

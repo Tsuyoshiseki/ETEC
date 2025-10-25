@@ -39,9 +39,9 @@
             <Label Text="Categoria:" FontAttributes="Bold" />
             <Frame BorderColor="Black" CornerRadius="8" Padding="5" HasShadow="False">
                 <Picker x:Name="picker_categoria"
-                        Title="Selecione a categoria"
-                        BackgroundColor="Transparent"
-                        TextColor="Black">
+            Title="Selecione a categoria"
+            BackgroundColor="Transparent"
+            TextColor="Black">
                     <Picker.Items>
                         <x:String>Gestão e Negócios</x:String>
                         <x:String>Desenvolvimento e Infraestrutura</x:String>

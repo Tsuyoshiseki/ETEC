@@ -3,44 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\editarsigla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\editarsigla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\detalhesiglapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\detalhesiglapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\editarsigla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\editarsigla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\models\\sigla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\models\\sigla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\editarsigla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\editarsigla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\detalhesiglapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\detalhesiglapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\adicionarsigla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\adicionarsigla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|c:\\users\\tsuyo\\documents\\github\\etec\\appwigla\\appwiglatcc\\appwiglatcc\\data\\databaselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1570148F-0C3F-4ED3-8976-F4444A4C8B35}|AppWiglaTCC\\AppWiglaTCC.csproj|solutionrelative:appwiglatcc\\data\\databaselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -60,127 +56,106 @@
               "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\EditarSigla.xaml",
               "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\EditarSigla.xaml",
               "RelativeToolTip": "AppWiglaTCC\\Views\\EditarSigla.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T11:30:07.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T18:42:59.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EditarSigla.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\EditarSigla.xaml.cs",
               "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\EditarSigla.xaml.cs",
               "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\EditarSigla.xaml.cs",
               "RelativeToolTip": "AppWiglaTCC\\Views\\EditarSigla.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:30:05.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T18:43:56.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdicionarSigla.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\AdicionarSigla.xaml.cs",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\AdicionarSigla.xaml.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\AdicionarSigla.xaml.cs*",
-              "RelativeToolTip": "AppWiglaTCC\\Views\\AdicionarSigla.xaml.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:25:08.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\AppShell.xaml",
-              "RelativeToolTip": "AppWiglaTCC\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DetalheSiglaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\DetalheSiglaPage.xaml",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\DetalheSiglaPage.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\DetalheSiglaPage.xaml",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\DetalheSiglaPage.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T09:37:26.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\App.xaml",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\App.xaml",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\App.xaml",
-              "RelativeToolTip": "AppWiglaTCC\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T09:25:29.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\App.xaml.cs",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\App.xaml.cs*",
-              "RelativeToolTip": "AppWiglaTCC\\App.xaml.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:23:23.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Data\\Database.cs",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\Data\\Database.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Data\\Database.cs",
-              "RelativeToolTip": "AppWiglaTCC\\Data\\Database.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswCMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T18:45:28.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml*",
-              "RelativeToolTip": "AppWiglaTCC\\Views\\MainPage.xaml*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAswEYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-12T18:35:14.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T18:38:00.649Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "AppWiglaTCC\\Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBQAAAAAAAAAAAAAAA==",
+              "Title": "DetalheSiglaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\DetalheSiglaPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\DetalheSiglaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\DetalheSiglaPage.xaml.cs",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\DetalheSiglaPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T18:29:40.185Z",
+              "WhenOpened": "2025-10-25T18:45:53.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Sigla.cs",
-              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Models\\Sigla.cs",
-              "RelativeDocumentMoniker": "AppWiglaTCC\\Models\\Sigla.cs",
-              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Models\\Sigla.cs*",
-              "RelativeToolTip": "AppWiglaTCC\\Models\\Sigla.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T18:15:38.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:55:24.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\MainPage.xaml",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswEsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T15:40:22.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T12:31:12.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "AppWiglaTCC\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAWwDYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T13:58:19.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseLogin.cs",
+              "DocumentMoniker": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Data\\DatabaseLogin.cs",
+              "RelativeDocumentMoniker": "AppWiglaTCC\\Data\\DatabaseLogin.cs",
+              "ToolTip": "C:\\Users\\tsuyo\\Documents\\GitHub\\ETEC\\AppWigla\\AppWiglaTCC\\AppWiglaTCC\\Data\\DatabaseLogin.cs",
+              "RelativeToolTip": "AppWiglaTCC\\Data\\DatabaseLogin.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T12:33:38.023Z"
             }
           ]
         }

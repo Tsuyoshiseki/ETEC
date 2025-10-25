@@ -1,4 +1,5 @@
-﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppWiglaTCC.Views.MainPage"
              BackgroundColor="White"
@@ -6,48 +7,103 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Adicionar Abreviação" Clicked="Adicionar_Clicked" />
+        <ToolbarItem Text="Sair" Clicked="OnSairClicked" />
     </ContentPage.ToolbarItems>
+
+    <!-- Título da página -->
+    <NavigationPage.TitleView>
+        <VerticalStackLayout Padding="1" Spacing="100">
+            <Image Source="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\Resources\AppIcon\Wigla.png"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Aspect="AspectFit"/>
+        </VerticalStackLayout>
+    </NavigationPage.TitleView>
 
     <ContentPage.Content>
         <ScrollView>
             <VerticalStackLayout Padding="15" Spacing="10">
 
-                <Grid Padding="10" ColumnSpacing="10">
+                <!-- Grid para barra de pesquisa, botão e picker -->
+                <Grid RowSpacing="10" ColumnSpacing="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <!-- Linha do Entry + Botão -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- Linha do Picker -->
+                    </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*"/>
+                        <!-- Entry ocupa todo espaço disponível -->
+                        <ColumnDefinition Width="Auto"/>
+                        <!-- Botão com largura fixa -->
                     </Grid.ColumnDefinitions>
 
-                    <Entry x:Name="txtBusca"
-                       Placeholder="Digite uma sigla..."
-                       BackgroundColor="White"
-                       TextColor="Black"
-                       HeightRequest="45"
-                       FontSize="16"
-                       VerticalOptions="Center"
-                       Grid.Column="0" />
-              
-                    <Button Text="Procurar"
-                        Clicked="Procurar_Clicked"
-                        BackgroundColor="Black"
-                        TextColor="White"
-                        HeightRequest="45"
-                        WidthRequest="100"
-                        VerticalOptions="Center"
-                        Grid.Column="1" />
+                    <!-- Entry de busca -->
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           BorderColor="Gray"
+                           CornerRadius="10"
+                           Padding="0"
+                           HasShadow="False"
+                           HeightRequest="45"
+                           VerticalOptions="Center">
+                        <Entry x:Name="txtBusca"
+                               Placeholder="Digite uma sigla..."
+                               BackgroundColor="White"
+                               TextColor="Black"
+                               FontSize="16"/>
+                    </Frame>
+
+                    <!-- Botão de procurar -->
+                    <Button Grid.Row="0" Grid.Column="1"
+                            Text="Procurar"
+                            Clicked="Procurar_Clicked"
+                            BackgroundColor="Black"
+                            TextColor="White"
+                            HeightRequest="45"
+                            WidthRequest="100"
+                            VerticalOptions="Center"/>
+
+                    <!-- Picker de categoria -->
+                    <Picker x:Name="picker_categoria"
+                            Grid.Row="1" Grid.Column="1"
+                            Title="Categoria"
+                            TitleColor="Black"
+                            BackgroundColor="LightGray"
+                            HeightRequest="70"
+                            FontSize="12"
+                            SelectedIndex="0"  
+                            SelectedIndexChanged="Picker_categoria_SelectedIndexChanged"
+                        HorizontalOptions="End">
+                        <!-- alinha à direita -->
+                        <Picker.Items>
+                            <x:String>Todas</x:String>
+                            <x:String>Gestão e Negócios</x:String>
+                            <x:String>Desenvolvimento e Infraestrutura</x:String>
+                            <x:String>Segurança e Acesso</x:String>
+                            <x:String>Gerenciamento e Operação</x:String>
+                            <x:String>Experiência do Usuário</x:String>
+                        </Picker.Items>
+                    </Picker>
                 </Grid>
 
-                <Label Text="Últimas adicionadas" 
+
+                <!-- Label dinâmica -->
+                <Label x:Name="lblUltimas"
+                       Text="Últimas adicionadas" 
                        FontAttributes="Bold" 
                        FontSize="18"
-                       TextColor="Black"/>
+                       TextColor="Black"
+                       Margin="0,10,0,0"/>
 
-                <RefreshView x:Name="refreshView" Command="{Binding RefreshCommand}">
+                <!-- CollectionView com Refresh -->
+                <RefreshView x:Name="refreshView">
                     <CollectionView x:Name="SiglasCollection"
-                                    ItemsSource="{Binding Siglas}"
                                     SelectionMode="Single"
-                                    Margin="10">
-
+                                    Margin="10"
+                                    SelectionChanged="SiglasCollection_SelectionChanged">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <Frame BorderColor="LightGray"
@@ -70,7 +126,6 @@
                                 </Frame>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-
                     </CollectionView>
                 </RefreshView>
 

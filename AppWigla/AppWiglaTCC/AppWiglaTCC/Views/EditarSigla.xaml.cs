@@ -4,41 +4,42 @@ namespace AppWiglaTCC.Views;
 
 public partial class EditarSigla : ContentPage
 {
-	public EditarSigla()
-	{
-		InitializeComponent();
-	}
+    private Sigla siglaAtual;
 
+    // Construtor que recebe a sigla selecionada
     public EditarSigla(Sigla sigla)
     {
         InitializeComponent();
+        siglaAtual = sigla;
         BindingContext = sigla;
+
+        // Preenche os campos com os dados da sigla
+        txt_sigla.Text = sigla.Abreviacao;
+        txt_significado.Text = sigla.Significado;
+        txt_descricao.Text = sigla.Descricao;
+        picker_categoria.SelectedItem = sigla.Categoria;
     }
 
     private async void Editar_Clicked(object sender, EventArgs e)
     {
         try
         {
-            Sigla sigla_anexado = BindingContext as Sigla;
+            siglaAtual.Abreviacao = txt_sigla.Text;
+            siglaAtual.Significado = txt_significado.Text;
+            siglaAtual.Descricao = txt_descricao.Text;
+            siglaAtual.Categoria = picker_categoria.SelectedItem?.ToString() ?? "";
 
-            Sigla s = new Sigla
-            {
-                Abreviacao = txt_sigla.Text,
-                Significado = txt_significado.Text,
-                Descricao = txt_descricao.Text,
-                Categoria = picker_categoria.SelectedItem?.ToString() ?? ""
-            };
+            // Exemplo: await SiglaService.AtualizarSigla(siglaAtual);
 
-            await DisplayAlert("Sucesso!", "Resgistro atualizado", "OK");
-
+            await DisplayAlert("Sucesso!", "Registro atualizado com sucesso!", "OK");
             await Navigation.PopAsync();
-
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Ops", ex.Message, "OK");
+            await DisplayAlert("Erro", $"Falha ao atualizar: {ex.Message}", "OK");
         }
     }
+
     private async void Voltar_Clicked(object sender, EventArgs e)
     {
         await Navigation.PopAsync();

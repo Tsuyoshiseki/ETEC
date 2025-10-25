@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppWiglaTCC.Views.EditarSigla"
-             Title="{Binding Descricao}">
+             Title="{Binding Sigla}">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Voltar" Clicked="Voltar_Clicked" />
