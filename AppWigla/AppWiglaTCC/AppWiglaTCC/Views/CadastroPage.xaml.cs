@@ -30,4 +30,9 @@ public partial class CadastroPage : ContentPage
         await DisplayAlert("Sucesso", $"Usuário {usuario.Nome} cadastrado!", "OK");
         await Navigation.PopAsync();
     }
+    private async void OnEntrarTapped(object sender, TappedEventArgs e)
+    {
+                await Navigation.PushAsync(new LoginPage());
+    }
+
 }

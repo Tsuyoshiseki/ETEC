@@ -40,6 +40,12 @@
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\a.scale-100.png">
+      <PackagePath>a.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ab.scale-100.png">
+      <PackagePath>ab.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tsuyo\Documents\GitHub\ETEC\AppWigla\AppWiglaTCC\AppWiglaTCC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>

@@ -49,9 +49,6 @@ namespace AppWiglaTCC.Views
                 return;
             }
 
-            var usuario = db.ObterUsuarioPorEmail(email);
-            await DisplayAlert("Sucesso", $"Bem-vindo, {usuario.Nome}!", "OK");
-
             await Navigation.PushAsync(new AppWiglaTCC.Views.MainPage());
         }
     }

@@ -2,19 +2,87 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppWiglaTCC.Views.CadastroPage"
-             Title="CadastroPage">
+             Title="">
 
     <ScrollView>
-        <VerticalStackLayout Padding="30" Spacing="15">
-            <Label Text="Cadastro" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <VerticalStackLayout Padding="25" Spacing="25" VerticalOptions="Center">
 
-            <Entry Placeholder="Nome completo" x:Name="nomeEntry"/>
-            <Entry Placeholder="E-mail" x:Name="emailEntry" Keyboard="Email"/>
-            <Entry Placeholder="Senha" x:Name="senhaEntry" IsPassword="True"/>
+            <!-- Título -->
+            <Label Text="Crie sua conta"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="#0078D7"
+                   HorizontalOptions="Center" />
 
-            <Button Text="Cadastrar" 
-                    BackgroundColor="#0078D7"
-                    Clicked="OnCadastrarClicked" />
+            <!-- Card do formulário -->
+            <Frame Padding="25"
+                   BackgroundColor="White"
+                   CornerRadius="20"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <!-- Nome -->
+                    <Entry Placeholder="Nome completo"
+                           x:Name="nomeEntry"
+                           FontSize="16"
+                           TextColor="#333"
+                           PlaceholderColor="#999"
+                           BackgroundColor="#F9FAFB"
+                           HeightRequest="45"
+                           Margin="0,5"
+                           />
+
+                    <!-- E-mail -->
+                    <Entry Placeholder="E-mail"
+                           x:Name="emailEntry"
+                           FontSize="16"
+                           Keyboard="Email"
+                           TextColor="#333"
+                           PlaceholderColor="#999"
+                           BackgroundColor="#F9FAFB"
+                           HeightRequest="45"
+                           Margin="0,5"
+                           />
+
+                    <!-- Senha -->
+                    <Entry Placeholder="Senha"
+                           x:Name="senhaEntry"
+                           FontSize="16"
+                           IsPassword="True"
+                           TextColor="#333"
+                           PlaceholderColor="#999"
+                           BackgroundColor="#F9FAFB"
+                           HeightRequest="45"
+                           Margin="0,5"
+                           />
+
+                    <!-- Botão Cadastrar -->
+                    <Button Text="Cadastrar"
+                            Clicked="OnCadastrarClicked"
+                            FontAttributes="Bold"
+                            BackgroundColor="#0078D7"
+                            TextColor="White"
+                            CornerRadius="10"
+                            HeightRequest="50"
+                            Margin="0,15,0,0">
+                    </Button>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Link para login -->
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="Já possui uma conta?" TextColor="#555" />
+                <Label Text=" Entrar"
+                       TextColor="#0078D7"
+                       FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnEntrarTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

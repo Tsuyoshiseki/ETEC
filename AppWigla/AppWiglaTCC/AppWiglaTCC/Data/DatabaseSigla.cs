@@ -49,5 +49,15 @@ namespace AppWiglaTCC.Data
 
             comando.ExecuteNonQuery();
         }
+        public void ExcluirSigla(int id)
+        {
+            using var conexao = new MySqlConnection(connectionString);
+            conexao.Open();
+
+            var comando = new MySqlCommand("DELETE FROM siglas WHERE id = @id", conexao);
+            comando.Parameters.AddWithValue("@id", id);
+
+            comando.ExecuteNonQuery();
+        }
     }
 }

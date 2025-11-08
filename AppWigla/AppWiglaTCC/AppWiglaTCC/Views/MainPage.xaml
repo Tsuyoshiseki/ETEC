@@ -55,21 +55,29 @@
                                TextColor="Black"
                                FontSize="16"/>
                     </Frame>
-
+                
                     <!-- Botão de procurar -->
                     <Button Grid.Row="0" Grid.Column="1"
                             Text="Procurar"
                             Clicked="Procurar_Clicked"
-                            BackgroundColor="Black"
+                            BackgroundColor= "#0078D7"
                             TextColor="White"
                             HeightRequest="45"
                             WidthRequest="100"
                             VerticalOptions="Center"/>
-
+                </Grid>
+                <Grid>
+                    <Grid>
+                        <Label Text="Categoria"
+                               HorizontalTextAlignment="End">
+                            
+                        </Label>
+                    </Grid>                    
+                    
                     <!-- Picker de categoria -->
                     <Picker x:Name="picker_categoria"
                             Grid.Row="1" Grid.Column="1"
-                            Title="Categoria"
+                            Title=" "
                             TitleColor="Black"
                             BackgroundColor="LightGray"
                             HeightRequest="70"

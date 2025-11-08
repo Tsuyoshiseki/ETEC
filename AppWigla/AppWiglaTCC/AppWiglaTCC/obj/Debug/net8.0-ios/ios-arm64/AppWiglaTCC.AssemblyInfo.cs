@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppWiglaTCC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c12c29178ab71ecbe0001c11260a5912bf220fbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1a4ff3b00ee97414c4841b89643045ac9592a459")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppWiglaTCC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppWiglaTCC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

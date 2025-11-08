@@ -1,36 +1,63 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppWiglaTCC.Views.DetalheSiglaPage"
-             Title="Detalhes da Sigla">
-    
+             Title=" ">
+
+    <!-- Barra superior -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Voltar" Clicked="Voltar_Clicked" />
+        <ToolbarItem Text="Voltar"
+                     Clicked="Voltar_Clicked" />
     </ContentPage.ToolbarItems>
-    
+
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="15">
-            <Label Text="{Binding Abreviacao}"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="#0078D7"/>
-            <Label Text="{Binding Significado}"
-                   FontSize="18"
-                   TextColor="Black"/>
-            <Label Text="{Binding Categoria}"
-                   FontSize="14"
-                   TextColor="Gray"/>
-            
-            <!-- Botão Editar -->
-            <Button Text="Editar"
-                    BackgroundColor="#0078D7"
-                    TextColor="White"
-                    FontAttributes="Bold"
-                    CornerRadius="8"
-                    HeightRequest="45"
-                    WidthRequest="150"
-                    HorizontalOptions="Center"
-                    Margin="0,20,0,0"
-                    Clicked="Editar_Clicked" />
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Cabeçalho -->
+            <Frame Padding="15"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   BackgroundColor="White">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="{Binding Abreviacao}"
+                           FontSize="28"
+                           FontAttributes="Bold"
+                           TextColor="#0078D7"
+                           HorizontalOptions="Start" />
+
+                    <Label Text="{Binding Significado}"
+                           FontSize="18"
+                           TextColor="#333"
+                           HorizontalOptions="Start" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Descrição -->
+            <Frame Padding="15"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="White">
+                <Label Text="{Binding Descricao}"
+                       FontSize="16"
+                       TextColor="#444"
+                       LineBreakMode="WordWrap" />
+            </Frame>
+
+            <!-- Botões de ação -->
+            <HorizontalStackLayout Spacing="15"
+                                   HorizontalOptions="End">
+
+                <Button Text="Editar"
+                        BackgroundColor="#0078D7"
+                        TextColor="White"
+                        CornerRadius="10"
+                        WidthRequest="90"
+                        Clicked="Editar_Clicked"
+                        HorizontalOptions="Start">
+                    
+                </Button>
+
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
