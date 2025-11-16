@@ -26,8 +26,6 @@ namespace AppWiglaTCC.Views
                 siglaSelecionada.Descricao = txt_descricao.Text;
                 siglaSelecionada.Categoria = picker_categoria.SelectedItem?.ToString() ?? "";
 
-                // Exemplo: await SiglaService.AtualizarSigla(siglaAtual);
-
                 await DisplayAlert("Sucesso!", "Registro atualizado com sucesso!", "OK");
                 await Navigation.PopAsync();
             }

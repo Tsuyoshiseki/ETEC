@@ -70,7 +70,6 @@ public partial class MainPage : ContentPage
                 await Navigation.PushAsync(new DetalheSiglaPage(siglaSelecionada));
             }
 
-            // Opcional: desmarcar item após abrir
             ((CollectionView)sender).SelectedItem = null;
         }
     }
@@ -89,7 +88,7 @@ public partial class MainPage : ContentPage
 
     private async void OnSairClicked(object sender, EventArgs e)
     {
-        // Volta para LoginPage e impede voltar com botão nativo
+        // Volta para LoginPage
         Application.Current.MainPage = new NavigationPage(new LoginPage());
     }
 

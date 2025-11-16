@@ -36,9 +36,7 @@
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
-                        <!-- Entry ocupa todo espaço disponível -->
                         <ColumnDefinition Width="Auto"/>
-                        <!-- Botão com largura fixa -->
                     </Grid.ColumnDefinitions>
 
                     <!-- Entry de busca -->
@@ -85,7 +83,6 @@
                             SelectedIndex="0"  
                             SelectedIndexChanged="Picker_categoria_SelectedIndexChanged"
                         HorizontalOptions="End">
-                        <!-- alinha à direita -->
                         <Picker.Items>
                             <x:String>Todas</x:String>
                             <x:String>Gestão e Negócios</x:String>

@@ -1,9 +1,0 @@
-PNG
-JPEG 
-SVG 
-MVVM 
-TCP (Transmission Control Protocol)
-IP (Internet Protocol), 
-HTTP (HyperText Transfer Protocol) 
-FTP (File Transfer Protocol)
-SMTP (Simple Mail Transfer Protocol) 

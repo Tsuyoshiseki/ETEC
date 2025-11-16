@@ -49,8 +49,6 @@ namespace AppWiglaTCC.Data
             var count = Convert.ToInt32(cmd.ExecuteScalar());
             return count > 0;
         }
-
-        // Obter usuário pelo email (opcional)
         public Usuario ObterUsuarioPorEmail(string email)
         {
             using var conexao = new MySqlConnection(connectionString);
