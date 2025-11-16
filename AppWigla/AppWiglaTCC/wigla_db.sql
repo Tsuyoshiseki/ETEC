@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2025 at 08:25 PM
+-- Generation Time: Nov 16, 2025 at 09:39 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -96,8 +96,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
 (1, 'Admin', 'admin', '123'),
-(2, 'Luã Seki', 'tsuyoshiseki@hotmail.com', '123'),
-(3, 'Leticia Karine dos Santos', 'leticiakarin3@gmail.com', 'ludalele');
+(2, 'Luã Seki', 'tsuyoshiseki@hotmail.com', '123');
 
 --
 -- Indexes for dumped tables
